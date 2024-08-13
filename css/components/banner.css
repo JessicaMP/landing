@@ -1,0 +1,23 @@
+.banner {
+  background-image: url("../../images/background.png");
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+.banner p {
+  opacity: .7;
+  font-size: 20px;
+}
+.banner a {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: #ffffff;
+  transition: all 0.5s ease-out allow-discrete;
+}
+
+.banner a:hover {
+  background-color: #19a466;
+}
